@@ -26,9 +26,7 @@ Which means that when a client rotates the token (*as is well within the spec*),
 
 ## Interlude: RFC9177
 
-To be fair to people who have to implement CoAP, the standards are a bit of a pig's breakfast.  The stated goal of CoAP was to be simple to implement and understand, and sadly, it is not that.
-
-To paper over the shortcomings in blockwise transfer there is [RFC9177](https://datatracker.ietf.org/doc/html/rfc9177).  This is, of course, laudable, but it does very little to mitigate the damage since there are already lots of implementations in the wild that will not be changed.
+To deal with the challenges in blockwise transfer there is [RFC9177](https://datatracker.ietf.org/doc/html/rfc9177).  This is, of course, laudable, but it does very little to mitigate the damage since there are already lots of implementations in the wild that will not be changed in the foreseeable future, so we have to make the best of what we have.
 
 ## Demonstrating the problem
 
